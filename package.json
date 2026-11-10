@@ -1,0 +1,10 @@
+{
+  "name": "holding-5s-design",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Persian holding 5S system design and local interactive prototype",
+  "scripts": {"start": "node server.mjs", "test": "node --test tests/*.test.mjs"},
+  "engines": {"node": ">=22"}
+}
+

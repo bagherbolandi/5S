@@ -1,0 +1,602 @@
+{
+  "status": "design_configuration_not_deployed",
+  "source": "user_reply_in_chat",
+  "holding_name": null,
+  "companies": [
+    {
+      "proposed_code": "C01",
+      "name": "نور ایستا پلاستیک",
+      "sites_or_children": [],
+      "site_inventory_complete": null
+    },
+    {
+      "proposed_code": "C02",
+      "name": "نورایستا خراسان",
+      "sites_or_children": [
+        {
+          "proposed_code": "C02-S01",
+          "name": "سایت اشتهارد",
+          "type": "site"
+        },
+        {
+          "proposed_code": "C02-S02",
+          "name": "سایت مشهد",
+          "type": "site"
+        },
+        {
+          "proposed_code": "C02-S03",
+          "name": "سایت کاسپین",
+          "type": "site"
+        }
+      ],
+      "site_inventory_complete": null
+    },
+    {
+      "proposed_code": "C03",
+      "name": "برنا کامپوزیت ایرانیان",
+      "sites_or_children": [
+        {
+          "proposed_code": "C03-S01",
+          "name": "سایت 1",
+          "type": "site"
+        },
+        {
+          "proposed_code": "C03-S02",
+          "name": "سایت 2",
+          "type": "site"
+        },
+        {
+          "proposed_code": "C03-S03",
+          "name": "برنا در",
+          "type": "pending_confirmation"
+        }
+      ],
+      "site_inventory_complete": null
+    },
+    {
+      "proposed_code": "C04",
+      "name": "پایا پلاست ایرانیان",
+      "sites_or_children": [],
+      "site_inventory_complete": null
+    },
+    {
+      "proposed_code": "C05",
+      "name": "پلیمری تدبیر نیکان",
+      "sites_or_children": [],
+      "site_inventory_complete": null
+    },
+    {
+      "proposed_code": "C06",
+      "name": "ایمن ایستا الکتریک",
+      "sites_or_children": [],
+      "site_inventory_complete": null
+    },
+    {
+      "proposed_code": "C07",
+      "name": "موج نیکان",
+      "sites_or_children": [],
+      "site_inventory_complete": null
+    }
+  ],
+  "area_templates": [
+    {
+      "proposed_code": "A01",
+      "user_label": "دفاتر اداری",
+      "user_group": "ستادی",
+      "suggested_entity_type": "محل",
+      "suggested_owner": "اداری",
+      "proposed_s1_to_s5_focus": [
+        "اسناد و اقلام زائد",
+        "محل بایگانی",
+        "میز و کف",
+        "استاندارد میز پاک",
+        "کنترل پایان روز"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "A02",
+      "user_label": "برنامه ریزی",
+      "user_group": "ستادی",
+      "suggested_entity_type": "واحد/محل نیازمند تعیین محدوده",
+      "suggested_owner": "برنامه‌ریزی",
+      "proposed_s1_to_s5_focus": [
+        "برنامه‌های منسوخ",
+        "تابلو و سوابق",
+        "پاکیزگی تابلو",
+        "روش به‌روزرسانی",
+        "کنترل اعتبار برنامه"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "A03",
+      "user_label": "ایمنی",
+      "user_group": "ستادی",
+      "suggested_entity_type": "واحد/محل نیازمند تعیین محدوده",
+      "suggested_owner": "ایمنی",
+      "proposed_s1_to_s5_focus": [
+        "اقلام زائد",
+        "محل تجهیزات",
+        "پاکیزگی ایستگاه",
+        "استاندارد علائم",
+        "کنترل دوره‌ای"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "A04",
+      "user_label": "دفتر مدیریت",
+      "user_group": "ستادی",
+      "suggested_entity_type": "محل",
+      "suggested_owner": "مدیریت/اداری",
+      "proposed_s1_to_s5_focus": [
+        "اسناد زائد",
+        "دسترسی به مدارک",
+        "میز و مبلمان",
+        "چیدمان مرجع",
+        "کنترل ادواری"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "A05",
+      "user_label": "اتاق جلسات",
+      "user_group": "ستادی",
+      "suggested_entity_type": "محل مشترک",
+      "suggested_owner": "اداری",
+      "proposed_s1_to_s5_focus": [
+        "اقلام غیرضروری",
+        "محل تجهیزات",
+        "نظافت میز",
+        "چیدمان مرجع",
+        "تحویل پس از جلسه"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "A06",
+      "user_label": "اتاق آموزش",
+      "user_group": "ستادی",
+      "suggested_entity_type": "محل مشترک",
+      "suggested_owner": "آموزش/اداری",
+      "proposed_s1_to_s5_focus": [
+        "محتوای منسوخ",
+        "چیدمان وسایل",
+        "نظافت کلاس",
+        "استاندارد چیدمان",
+        "کنترل قبل و بعد آموزش"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "A07",
+      "user_label": "مهندسی",
+      "user_group": "ستادی",
+      "suggested_entity_type": "واحد/محل نیازمند تعیین محدوده",
+      "suggested_owner": "مهندسی",
+      "proposed_s1_to_s5_focus": [
+        "نقشه و نمونه زائد",
+        "نظم مدارک",
+        "پاکیزگی محیط",
+        "روش شناسایی",
+        "بازبینی دوره‌ای"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "A08",
+      "user_label": "نگهداری و تعمیرات",
+      "user_group": "ستادی",
+      "suggested_entity_type": "واحد/محل نیازمند تعیین محدوده",
+      "suggested_owner": "نگهداری و تعمیرات",
+      "proposed_s1_to_s5_focus": [
+        "ابزار خراب",
+        "محل ابزار",
+        "نظافت کار",
+        "استاندارد بازگرداندن",
+        "کنترل تحویل کار"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "A09",
+      "user_label": "تولید",
+      "user_group": "ستادی",
+      "suggested_entity_type": "واحد/محل نیازمند تعیین محدوده",
+      "suggested_owner": "تولید",
+      "proposed_s1_to_s5_focus": [
+        "اسناد منسوخ",
+        "نظم تابلو",
+        "پاکیزگی دفتر تولید",
+        "استاندارد شیفت",
+        "کنترل تحویل شیفت"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "A10",
+      "user_label": "نمازخانه",
+      "user_group": "ستادی",
+      "suggested_entity_type": "محل مشترک",
+      "suggested_owner": "اداری/خدمات",
+      "proposed_s1_to_s5_focus": [
+        "اقلام غیرمرتبط",
+        "محل لوازم",
+        "نظافت کف",
+        "استاندارد چیدمان",
+        "برنامه کنترل"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "A11",
+      "user_label": "آبدارخانه",
+      "user_group": "ستادی",
+      "suggested_entity_type": "محل مشترک",
+      "suggested_owner": "اداری/خدمات",
+      "proposed_s1_to_s5_focus": [
+        "اقلام زائد",
+        "محل ظروف",
+        "پاکیزگی سطوح",
+        "استاندارد نگهداری",
+        "کنترل پایان نوبت"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "A12",
+      "user_label": "اتاق سرور",
+      "user_group": "ستادی",
+      "suggested_entity_type": "محل تخصصی",
+      "suggested_owner": "فناوری اطلاعات",
+      "proposed_s1_to_s5_focus": [
+        "اقلام غیرمرتبط",
+        "نظم و شناسه کابل‌ها",
+        "نظافت مجاز",
+        "استاندارد رک و دسترسی",
+        "کنترل پس از کار"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O01",
+      "user_label": "سالن تولید پرس",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محل",
+      "suggested_owner": "تولید",
+      "proposed_s1_to_s5_focus": [
+        "مواد و ابزار زائد",
+        "محل ابزار تعویض",
+        "نظافت و منبع آلودگی",
+        "استاندارد ایستگاه",
+        "تحویل شیفت"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O02",
+      "user_label": "سالن تولید ربات",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محل",
+      "suggested_owner": "تولید",
+      "proposed_s1_to_s5_focus": [
+        "اقلام زائد",
+        "محل ابزار و ملزومات",
+        "نظافت مجاز سلول",
+        "استاندارد چیدمان",
+        "کنترل شیفت"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O03",
+      "user_label": "بسته بندی",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محل",
+      "suggested_owner": "تولید/بسته‌بندی",
+      "proposed_s1_to_s5_focus": [
+        "ملزومات زائد",
+        "محل بسته و ابزار",
+        "نظافت میز",
+        "استاندارد چیدمان بسته",
+        "کنترل پایان کار"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O04",
+      "user_label": "کارگاه تاسیسات",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محل",
+      "suggested_owner": "نگهداری و تعمیرات",
+      "proposed_s1_to_s5_focus": [
+        "قطعات زائد",
+        "جای ابزار",
+        "پاکیزگی کف",
+        "روش تحویل ابزار",
+        "کنترل پایان تعمیر"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O05",
+      "user_label": "کارگاه قالب و ابزار",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محل",
+      "suggested_owner": "مهندسی/نگهداری و تعمیرات",
+      "proposed_s1_to_s5_focus": [
+        "ابزار معیوب",
+        "محل ابزار",
+        "نظافت میز",
+        "استاندارد برچسب",
+        "تحویل کارگاه"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O06",
+      "user_label": "انبار قالب ها",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محل",
+      "suggested_owner": "انبار/قالب و ابزار",
+      "proposed_s1_to_s5_focus": [
+        "قالب بدون تعیین تکلیف",
+        "آدرس قالب",
+        "نظافت محل",
+        "استاندارد جانمایی",
+        "بازبینی محل قالب"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O07",
+      "user_label": "انبار ارسال",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محل",
+      "suggested_owner": "انبار/ارسال",
+      "proposed_s1_to_s5_focus": [
+        "اقلام نامشخص",
+        "جانمایی محموله",
+        "پاکیزگی کف",
+        "استاندارد برچسب و مسیر",
+        "کنترل پایان شیفت"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O08",
+      "user_label": "محوطه انبار ارسال",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محل",
+      "suggested_owner": "انبار/ارسال",
+      "proposed_s1_to_s5_focus": [
+        "اقلام رهاشده",
+        "محدوده بار",
+        "نظافت محوطه",
+        "استاندارد خطوط",
+        "کنترل پس از بارگیری"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O09",
+      "user_label": "انبار مواد اولیه",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محل",
+      "suggested_owner": "انبار",
+      "proposed_s1_to_s5_focus": [
+        "مواد بدون شناسه",
+        "جانمایی و مسیر",
+        "نظافت و ریزش",
+        "استاندارد نگهداری",
+        "بازدید دوره‌ای"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O10",
+      "user_label": "انبار قطعات و ملزومات مصرفی",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محل",
+      "suggested_owner": "انبار",
+      "proposed_s1_to_s5_focus": [
+        "قطعات زائد",
+        "آدرس قفسه",
+        "نظافت قفسه",
+        "استاندارد برچسب",
+        "کنترل تطابق محل"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O11",
+      "user_label": "سالن رنگ",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محل",
+      "suggested_owner": "تولید/رنگ",
+      "proposed_s1_to_s5_focus": [
+        "اقلام زائد",
+        "محل ملزومات",
+        "پاکیزگی طبق روش مجاز",
+        "استاندارد ایستگاه",
+        "کنترل پایان نوبت"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O12",
+      "user_label": "موتورخانه تاسیسات",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محل",
+      "suggested_owner": "نگهداری و تعمیرات",
+      "proposed_s1_to_s5_focus": [
+        "اقلام غیرمرتبط",
+        "دسترسی به نقاط بازدید",
+        "آلودگی و نشت مشاهده‌شده",
+        "استاندارد علائم",
+        "ثبت بازدید"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O13",
+      "user_label": "محوطه شمالی",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محوطه",
+      "suggested_owner": "خدمات/تأسیسات",
+      "proposed_s1_to_s5_focus": [
+        "اقلام رهاشده",
+        "محدوده نگهداری",
+        "پاکیزگی",
+        "استاندارد جانمایی",
+        "بازدید محوطه"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O14",
+      "user_label": "محوطه جنوبی",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محوطه",
+      "suggested_owner": "خدمات/تأسیسات",
+      "proposed_s1_to_s5_focus": [
+        "اقلام رهاشده",
+        "محدوده نگهداری",
+        "پاکیزگی",
+        "استاندارد جانمایی",
+        "بازدید محوطه"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O15",
+      "user_label": "محوطه شرقی",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محوطه",
+      "suggested_owner": "خدمات/تأسیسات",
+      "proposed_s1_to_s5_focus": [
+        "اقلام رهاشده",
+        "محدوده نگهداری",
+        "پاکیزگی",
+        "استاندارد جانمایی",
+        "بازدید محوطه"
+      ],
+      "assignment_status": "not_assigned"
+    },
+    {
+      "proposed_code": "O16",
+      "user_label": "محوطه غربی",
+      "user_group": "عملیاتی",
+      "suggested_entity_type": "محوطه",
+      "suggested_owner": "خدمات/تأسیسات",
+      "proposed_s1_to_s5_focus": [
+        "اقلام رهاشده",
+        "محدوده نگهداری",
+        "پاکیزگی",
+        "استاندارد جانمایی",
+        "بازدید محوطه"
+      ],
+      "assignment_status": "not_assigned"
+    }
+  ],
+  "assignments": [],
+  "company_area_selections": [
+    {
+      "company_code": "C01",
+      "selected_area_codes": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "O01",
+        "O02",
+        "O03",
+        "O04",
+        "O05",
+        "O06",
+        "O07",
+        "O08",
+        "O09",
+        "O10",
+        "O11",
+        "O12",
+        "O13",
+        "O14",
+        "O15",
+        "O16"
+      ],
+      "status": "confirmed_by_user",
+      "scope": "company",
+      "site_allocations": [],
+      "ready_for_audit": false
+    },
+    {
+      "company_code": "C02",
+      "selected_area_codes": [],
+      "status": "not_configured",
+      "scope": "company",
+      "site_allocations": [],
+      "ready_for_audit": false
+    },
+    {
+      "company_code": "C03",
+      "selected_area_codes": [],
+      "status": "not_configured",
+      "scope": "company",
+      "site_allocations": [],
+      "ready_for_audit": false
+    },
+    {
+      "company_code": "C04",
+      "selected_area_codes": [],
+      "status": "not_configured",
+      "scope": "company",
+      "site_allocations": [],
+      "ready_for_audit": false
+    },
+    {
+      "company_code": "C05",
+      "selected_area_codes": [],
+      "status": "not_configured",
+      "scope": "company",
+      "site_allocations": [],
+      "ready_for_audit": false
+    },
+    {
+      "company_code": "C06",
+      "selected_area_codes": [],
+      "status": "not_configured",
+      "scope": "company",
+      "site_allocations": [],
+      "ready_for_audit": false
+    },
+    {
+      "company_code": "C07",
+      "selected_area_codes": [],
+      "status": "not_configured",
+      "scope": "company",
+      "site_allocations": [],
+      "ready_for_audit": false
+    }
+  ],
+  "selection_rules": {
+    "select_all": true,
+    "select_by_group": true,
+    "clear_draft_selection": true,
+    "site_selection_is_independent": true,
+    "site_must_be_subset_of_company": true,
+    "draft_is_not_absence": true,
+    "preserve_historical_results": true,
+    "deactivation_requires_effective_date_and_reason": true,
+    "confirmation_required_for_empty_inventory": true
+  }
+}
